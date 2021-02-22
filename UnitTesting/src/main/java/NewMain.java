@@ -1,7 +1,7 @@
 
-import com.jgranados.unittesting.patrones.BuilderCuenta;
-import com.jgranados.unittesting.patrones.ConexionSingleton;
-import com.jgranados.unittesting.patrones.Cuenta;
+import com.jgranados.unittesting.patronescreacion.BuilderCuenta;
+import com.jgranados.unittesting.patronescreacion.ConexionSingleton;
+import com.jgranados.unittesting.patronescreacion.Cuenta;
 import java.time.LocalDate;
 
 /*

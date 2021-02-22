@@ -1,4 +1,4 @@
-package com.jgranados.unittesting.patrones;
+package com.jgranados.unittesting.patronescreacion;
 
 import java.util.Scanner;
 

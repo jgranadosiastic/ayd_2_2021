@@ -3,15 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.jgranados.unittesting.patrones;
+package com.jgranados.unittesting.patronesestructurales;
 
 /**
  *
  * @author jose
  */
-public interface Factory {
+public interface Adaptador {
     
-    Messenger build(MessageType type, String message);
-    
-    Messenger build(MessageType type, String message, int length);
+    Cliente adaptarACliente(int numeroCuenta);
 }
