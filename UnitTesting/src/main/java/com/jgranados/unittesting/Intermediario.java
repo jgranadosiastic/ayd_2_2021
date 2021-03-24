@@ -55,5 +55,18 @@ public class Intermediario {
         return dato1 + opcion;
     }
     
+    public int logica2(int opcion, Elemento2 el2) {
+        if (elemento.getDato1() == opcion) {
+            dato2 = "texto1";
+        }
+        
+        try {
+            elemento.procedimiento(5, el2);
+        } catch (Exception e) {
+            dato1++;
+        }
+        
+        return dato1 + opcion;
+    }
     
 }

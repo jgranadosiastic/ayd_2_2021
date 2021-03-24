@@ -46,4 +46,11 @@ public class Elemento {
         e2.logicaSumar(5, 3);
         throw new Exception();
     }
+    
+    public void procedimiento(int x, Elemento2 el2) throws Exception {
+        /// muchas cosas
+        // depende de e2
+        e2.logicaSumar(5, 3);
+        throw new Exception();
+    }
 }
